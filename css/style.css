@@ -1,0 +1,34 @@
+:root {
+  --black: #212121;
+  --gray: #f3f3f3;
+  --purple: #9156e2;
+  --pink: @e62f89;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1.5fr repeat(5, 1fr);
+  width: 200px;
+  height: 325px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.input-output {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.col-2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}/*# sourceMappingURL=style.css.map */
