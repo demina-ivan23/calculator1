@@ -2,7 +2,7 @@
   --black: #212121;
   --gray: #f3f3f3;
   --purple: #9156e2;
-  --pink: @e62f89;
+  --pink: #e62f89;
 }
 
 .wrapper {
@@ -31,4 +31,22 @@
 .col-2 {
   grid-column-start: 3;
   grid-column-end: 5;
+}
+
+.btn {
+  border: none;
+  border-radius: 0%;
+}
+.btn-gray {
+  background-color: var(--gray);
+}
+.btn-purple {
+  background-color: var(--purple);
+}
+.btn-pink {
+  background-color: var(--pink);
+}
+
+.bg-black {
+  background-color: var(--black);
 }/*# sourceMappingURL=style.css.map */
