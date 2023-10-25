@@ -7,7 +7,7 @@
 
 .wrapper {
   height: 100vh;
-  width: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,6 +26,23 @@
 .input-output {
   grid-column-start: 1;
   grid-column-end: 5;
+  color: rgb(228, 134, 67);
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+}
+
+.input {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.output {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 1em;
 }
 
 .col-2 {
@@ -36,6 +53,7 @@
 .btn {
   border: none;
   border-radius: 0%;
+  transition: 200ms;
 }
 .btn-gray {
   background-color: var(--gray);
@@ -45,6 +63,15 @@
 }
 .btn-pink {
   background-color: var(--pink);
+}
+.btn-gray:hover {
+  background-color: rgb(223, 223, 223);
+}
+.btn-purple:hover {
+  background-color: rgb(150, 90, 241);
+}
+.btn-pink:hover {
+  background-color: rgb(219, 74, 146);
 }
 
 .bg-black {
